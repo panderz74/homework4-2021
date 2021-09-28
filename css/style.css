@@ -1,0 +1,135 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+Make sure to learn what the starter code does!!
+*/
+
+/*STARTER CODE - DO NOT CHANGE*/
+main{
+  margin-bottom: 100px;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+/* If you decide to uncomment this code, comment it back for the Autograder. */
+/* tr{
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+} */
+
+/*END STARTER CODE*/
+
+body{
+  background: #DDDDDD url("/Users/anderslundin/Desktop/SI339/hw4-2021/images/pigeon-background.JPEG");
+  font-family: 'Andika', sans-serif;
+  color: #000000;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /*Req 1*/
+}
+
+h1{
+  font-size: 32px;
+  text-align: center;
+  line-height: 2;
+  color: #c12258;
+  font-size: 2em;
+
+  /*Req 2*/
+}
+
+p{
+  padding-top: 15px;
+}
+
+a{
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-style: wavy;
+}
+
+/*Req 5*/
+/*Add selector and rule here*/
+:focus {
+  border-color: #417243;
+  border-width: 3px;
+  border-style:dashed;
+}
+
+
+td{
+  border-top: 2px solid #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+.colhead{
+  color: #FFFFFF;
+  background-color: #7e0825;
+  min-width: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.rowhead{
+  border: 2px solid #000000;
+  border-left: 0px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    border-radius: 50px;
+}
+
+/* I gave you the selector, but not the property-value pair. 
+You can use Inspect Element or your editor to find selectors. */
+/*top corners*/
+thead tr:first-child th:first-child{
+  border-radius: 5em 0em 0em 0em;
+}
+
+thead tr:first-child th:last-child{
+  border-radius: 0em 5em 0em 0em;
+}
+
+/*bottom corners*/
+tbody tr:last-child th:first-child{
+  border-radius: 0em 0em 0em 5em;
+}
+
+tbody tr:last-child td:last-child{
+  border-radius: 0em 0em 5em 0em;
+}
+/*Add selectors and rules here*/
+tr:nth-child(odd){
+  background-color: transparent;
+}
+
+tr:nth-child(even){
+  background-color: #d1d1d1;
+}
+tr:hover{
+  background-color: rgba(178, 31, 80, 0.25);
+}
+
+footer{
+  width:100%;
+  min-height: 75px;
+  background:#000000;
+  text-align:center;
+  position:fixed;
+  right: 0px;
+  color: #FFFFFF;
+}
+

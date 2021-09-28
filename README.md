@@ -1,2 +1,1 @@
-# homework4-2021
-SI 339 Homework 4
+# hw4-2021
