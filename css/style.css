@@ -78,7 +78,6 @@ td{
   min-width: 125px;
   padding: 10px;
   text-align: center;
-  text-justify: center;
   text-transform: uppercase;
 }
 
@@ -130,7 +129,8 @@ footer{
   min-height: 75px;
   background:#000000;
   text-align:center;
-  position:fixed;
+  position:absolute;
+  bottom: 0em;
   right: 0em;
   color: #FFFFFF;
 }
